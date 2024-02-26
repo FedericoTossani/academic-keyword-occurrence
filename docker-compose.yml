@@ -2,6 +2,6 @@ version: "3"
 services:
   academickeywordoccurrence:
       build: .
-      command: python ./extract_occurrences.py 'Bitcoin' 2005 2015 
+      command: python ./extract_occurrences.py 'natal dispersal' 1950 2023 
       volumes:
         - ./:/data
